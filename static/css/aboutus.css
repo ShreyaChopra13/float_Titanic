@@ -1,0 +1,21 @@
+.about_us {
+    font-family: optima;
+    display: block;
+    background-color: rgba(25, 25, 25, 0.8);
+    margin: 2%;
+}
+
+.content {
+    display: inline-block;
+    width: 70%;
+    background-color: rgba(25, 25, 25, 0.8);
+    padding: 2%;
+    margin: 1%;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    color: whitesmoke;
+}
+
+.content h2 {
+    font-size: 90%;
+}
