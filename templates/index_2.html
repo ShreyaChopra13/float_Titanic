@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrashCash</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/stylesheet.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/responsive.css')}}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-left">
+          <a href="index_2.html">
+						<h3 class="logo">Trash Cash</h3>
+					</a>
+        </div>
+        <div class="header-icon">
+          <span class="fa fa-bars menu-icon"></span>
+        </div>
+        <div class="header-right">
+            <a href="/about">About Us</a>
+            <a href="/points">Points</a>
+            <a href="/pickup_2">Pickup</a>
+            <a href="/login" class="login">Login</a>
+        </div>
+      </div>
+    </header>
+    <div class="top-wrapper">
+      <div class="container">
+        <h1>TRASH IT</h1>
+        <h2>TO</h2>
+        <h1>CASH IT</h1>
+        <p>Littering the world is</p>
+        <p>Literally making it a trash can</p>
+        <div class="btn-wrapper">
+          <a href="#" class="btn signup">Sign up with Email</a>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-down">
+      <a href="#start"><i class="fa fa-angle-double-down down" style="color:black "></i></a>
+    </div>
+    <div class="message-wrapper">
+      <div class="container">
+        <div class="heading">
+          <section id="start"></section>
+          <h2>Contact Us</h2>
+          <h3>We look forward to hearing your questions, comments, and suggestions!</h3>
+        </div>
+          <form>
+            <div class="form-field-container">
+                <label for="username">Name:</label>
+                <input type="text" id="username" name="user_name">
+            </div>
+            <div class="form-field-container">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="user_email">
+            </div>
+            <div class="form-field-container">
+                <label for="message">Message:</label>
+                <textarea id="message" name="user_message"></textarea>
+            </div>
+            <div class="form-field-container submit-btn">
+                <button type="submit">Submit</button>
+            </div>
+          </form>   
+      </div>
+    </div>
+  </body>
+</html>

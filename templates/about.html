@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrashCash</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/stylesheet.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/responsive.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/aboutus.css')}}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-left">
+          <a href="/index">
+						<h3 class="logo">Trash Cash</h3>
+					</a>
+        </div>
+        <div class="header-icon">
+          <span class="fa fa-bars menu-icon"></span>
+        </div>
+        <div class="header-right">
+          <a href="/about">About Us</a>
+          <a href="/points">Points</a>
+          <a href="/pickup">Pickup</a>
+          <a href="/login" >Logout</a>
+        </div>
+      </div>
+    </header>
+    <div class="top-wrapper">
+      <div class="about_us">
+        <h1>About Us</h1>
+      </div>
+      <div class="content">
+          <h2>Disposing of waste has huge environmental impacts and can cause serious problems.</h2>
+          <h2>TrashCash is a waste recycling/reusing company. We are an on-demand trash pickup service.</h2> 
+          <h2>We efficiently take your garbage and either recycle it or reuse it to create value out of it. For all the trash that you give us, you get points which can then be redeemed with our partner companies.</h2>
+      </div>
+      <div class="content">
+        <h2>It is a website that customers with a garbage pick up service.</h2>
+        <h2>The received waste will be segregated into different categories according to their composition.</h2>
+        <h2>The waste which can be reused or recycled will be given to suitable vendors for a fair price.</h2>
+        <h2>According to the reusable or recyclable waste, components our customers will be rewarded points which can then be redeemed in various ways.</h2>
+        <h2>Our goal is to revolutionize the way people think of trash. We strongly believe in recycling and reusing trash, to facilitate a much sustainable and environmentally friendly future.</h2>
+      </div>
+    </div>
+    </body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>TrashCash-Login</title>
+		<link rel="stylesheet" href="login.css">
+		<link rel="stylesheet" href="stylesheet.css">
+		<link rel="stylesheet" href="responsive.css">
+        <link rel="stylesheet" href="{{ url_for('static',filename='css/stylesheet.css')}}">
+        <link rel="stylesheet" href="{{ url_for('static',filename='css/responsive.css')}}">
+        <link rel="stylesheet" href="{{ url_for('static',filename='css/login.css')}}">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<header>
+			<div class="container">
+			  <div class="header-left">
+				<a href="index.html">
+				  <h3 class="logo">Trash Cash</h3>
+				</a>
+			  </div>
+			  <div class="header-icon">
+				<span class="fa fa-bars menu-icon"></span>
+			  </div>
+			  <div class="header-right">
+                <a href="/about">About Us</a>
+                <a href="/points">Points</a>
+                <a href="/pickup">Pickup</a>
+                <a href="/login">Login</a>
+			  </div>
+			</div>
+		  </header>
+		  <div class="login">
+
+    			<form>  
+					<div class="form-field-container">
+						<label for="email">Email:</label>
+						<input type="text" id="user_email" placeholder="Enter Email" name="user_email">
+					</div>
+					<div class="form-field-container">
+						<label for="password">Password:</label>
+						<input type="password" id="password" placeholder="Enter Password" name="password">
+					</div>
+					<div class="form-field-container submit-btn">
+						<button type="submit"><a href="/profile">Login</a></button>
+					</div>  
+					
+					<div>
+					<input type="checkbox" checked="checked" name="remember_me" class="remember">Remember me   
+					</div>
+					<!-- <a class="a1" href="/index">
+					 <button type="button" class="cancelbtn">Cancel</button> 
+					</a>    -->
+					<a  class="a1" href="/index">Forgot password?</a>   
+				</form> 
+                
+			</div>
+	</body>
+</html>
